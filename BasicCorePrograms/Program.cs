@@ -14,7 +14,7 @@ namespace BasicCorePrograms
             Console.WriteLine("Welcome to C# Basic Programs");
 
             Console.WriteLine("please enter below number");
-            Console.WriteLine("1:FlipCoin\n2:Exit");
+            Console.WriteLine("1:FlipCoin\n2:LeapYear");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -23,6 +23,7 @@ namespace BasicCorePrograms
                     FlipCoin.FindPercentageFlipCoin();
                     break;
                 case 2:
+                    LeapYear.FindLeapYear();
                     break;
                 default:
                     Console.WriteLine("Please enter the option from above");
