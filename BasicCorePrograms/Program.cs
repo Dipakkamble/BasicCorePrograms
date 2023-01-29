@@ -14,7 +14,7 @@ namespace BasicCorePrograms
             Console.WriteLine("Welcome to C# Basic Programs");
 
             Console.WriteLine("\nplease enter below number");
-            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo\n4:Harmonic\n6:Q&R\n7:SwapNumber\n8:EvenOdd");
+            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo\n4:Harmonic\n6:Q&R\n7:SwapNumber\n8:EvenOdd\n9:VowelConsonant");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -39,6 +39,9 @@ namespace BasicCorePrograms
                     break;
                 case 8:
                     EvenOdd.FindEvenOdd();
+                    break;
+                case 9:
+                    VowelConsonant.FindVowelConsonant();
                     break;
                 default:
                     Console.WriteLine("Please enter the option from above");
